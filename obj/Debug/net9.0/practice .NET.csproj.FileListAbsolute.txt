@@ -1,0 +1,14 @@
+c:\Users\Vanessa.yeo\projects\practice _dotnet\bin\Debug\net9.0\practice .NET.exe
+C:\Users\Vanessa.yeo\projects\practice _dotnet\bin\Debug\net9.0\practice .NET.deps.json
+C:\Users\Vanessa.yeo\projects\practice _dotnet\bin\Debug\net9.0\practice .NET.runtimeconfig.json
+c:\Users\Vanessa.yeo\projects\practice _dotnet\bin\Debug\net9.0\practice .NET.dll
+c:\Users\Vanessa.yeo\projects\practice _dotnet\bin\Debug\net9.0\practice .NET.pdb
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.AssemblyInfoInputs.cache
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.AssemblyInfo.cs
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.csproj.CoreCompileInputs.cache
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.dll
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\refint\practice .NET.dll
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.pdb
+C:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.genruntimeconfig.cache
+C:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\ref\practice .NET.dll
