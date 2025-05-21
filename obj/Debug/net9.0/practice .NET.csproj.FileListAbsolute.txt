@@ -12,3 +12,4 @@ c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\refint\practice 
 c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.pdb
 C:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.genruntimeconfig.cache
 C:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\ref\practice .NET.dll
+c:\Users\Vanessa.yeo\projects\practice _dotnet\obj\Debug\net9.0\practice .NET.sourcelink.json
