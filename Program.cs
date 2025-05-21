@@ -11,6 +11,10 @@ namespace practice_dotnet
         Express = 3
     }
 
+    public class Person
+    {
+        public int Age;
+    }
     class Program
     {
         static void Main(string[] args)
@@ -55,7 +59,7 @@ namespace practice_dotnet
             var methodId = 3;
             Console.WriteLine((ShippingMethod)methodId);
 
-            // convvert int to string
+            // convert int to string
             Console.WriteLine(method.ToString());
 
             // converts string into express into common value
@@ -66,12 +70,45 @@ namespace practice_dotnet
             (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
         }
 
-        static void Increments(string[] args)
+        static void refenceType(string[] args)
         {
+            //int: b is a separate copy of a and does not get referenced
             var a = 10;
             var b = a;
             b++;
             Console.WriteLine(string.Format("a: {0}. b: {1}", a, b));
+            //a: 10, b: 11
+
+            //arrarys: both arrays point to the same copy of array in heap
+            var array1 = new int[3] { 1, 2, 3 };
+            var array2 = array1;
+            array2[0] = 0;
+            Console.WriteLine(string.Format("array1[0]: {0}, array2[0]: {1}", array1[0], array2[0]));
+            // gives both 0
+        }
+
+        static void Main(string[] args)
+        {
+            var number = 1;
+            Increment(number);
+            Console.WriteLine(number);
+            // gives number = 1 as separate copy is made in Increment method
+
+            var person = new Person() { Age = 20 };
+            MakeOld(person);
+            Console.WriteLine(person.Age);
+            // gives 30 as reference same obj on heap
+
+        }
+
+        public static void Increment(int number)
+        {
+            number += 10;
+        }
+
+        public static void MakeOld(Person person)
+        {
+            person.Age += 10;
         }
     }
 }
