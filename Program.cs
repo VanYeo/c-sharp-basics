@@ -98,8 +98,27 @@ namespace Iterations
             Console.WriteLine("Enter string of numbers: ");
             string? numString = Console.ReadLine();
             var numArray = numString.Split(",");
-            Console.WriteLine(numArray);
-            var maxNum = Math.Max(numArray);
+
+            // Step 1: Create a new array to hold the integers
+            int[] intArray = new int[numArray.Length];
+
+            // Step 2: Loop through each string in numArray
+            for (int i = 0; i < numArray.Length; i++)
+            {
+                // Step 3: Trim whitespace and parse to int
+                string trimmed = numArray[i].Trim();
+                int number = int.Parse(trimmed);
+
+                // Step 4: Store the integer in intArray
+                intArray[i] = number;
+            }
+
+            // step 1-4 in one step
+            var intArray = numArray.Select(s => int.Parse(s.Trim())).ToArray();
+
+            // find the max number
+            var maxNum = intArray.Max();
+            Console.WriteLine("q5: " + maxNum);
 
 
         }
